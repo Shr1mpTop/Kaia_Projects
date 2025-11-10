@@ -1,21 +1,24 @@
 {
   "name": "kaia_prac",
   "version": "1.0.0",
-  "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shr1mpTop/Kaia_prac.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shr1mpTop/Kaia_prac/issues"
+  },
+  "homepage": "https://github.com/Shr1mpTop/Kaia_prac#readme",
   "devDependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
-    "@nomicfoundation/hardhat-ethers": "^4.0.3",
-    "@nomicfoundation/hardhat-network-helpers": "^3.0.2",
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
-    "@nomicfoundation/hardhat-verify": "^3.0.6",
     "hardhat": "^3.0.12"
   },
   "dependencies": {
